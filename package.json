@@ -1,0 +1,19 @@
+{
+  "name": "filename-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "convert": "npm run convert:text && npm run convert:index",
+    "convert:text": "node main.js",
+    "convert:index": "node pukiwikiIndex.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consola": "^2.15.3",
+    "encoding-japanese": "^1.0.30",
+    "iconv-lite": "^0.6.3"
+  }
+}
